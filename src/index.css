@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
+  color: #16cc86;
+}
+
+.tempo .tela {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tempo {
+  width: 25rem;
+  height: 12rem;
+  background: #0b0d0e;
+  border-radius: 1.2rem;
+}
+
+.tempo {
+  width: 23rem;
+  height: 10rem;
+  border: 0.32rem solid #000;
+  border-radius: 1rem;
+  background: linear-gradient(
+    -45deg,
+    #1f272b 0%,
+    #1f272b 50%,
+    #1b1f21 50%,
+    #1b1f21 100%
+  );
+}
